@@ -41,5 +41,9 @@ printInfo 메소드는 맵의 정보를 출력합니다. 먼저, 맵의 구조�
 #### 유의할 점
 
 너비를 각 행별로 저장을 해야 했을 때 어떻게 저장을 할지 좀 어려웠는데 
+
 width = Arrays.stream(lines).skip(1).mapToInt(String::length).max().orElse(0);를 사용해
+
 stream API를 사용하는 것은 처음 알았다. 
+
+역시 코딩은 해봐야 느는것 같다.
